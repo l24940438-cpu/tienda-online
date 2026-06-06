@@ -305,6 +305,39 @@ footer{
     padding: 20px;
 }
 
+/* BOTON WHATSAPP */
+.whatsapp{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+
+    width: 60px;
+    height: 60px;
+
+    background: #25D366;
+
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 0 4px 10px rgba(0,0,0,.3);
+
+    z-index: 9999;
+
+    transition: 0.3s;
+}
+
+.whatsapp:hover{
+    transform: scale(1.1);
+}
+
+.whatsapp img{
+    width: 20px;
+    height: 20px;
+}
+
 /* RESPONSIVE */
 @media(max-width:768px){
 
@@ -321,5 +354,4 @@ footer{
     .hero-texto h2{
         font-size: 40px;
     }
-
 }
